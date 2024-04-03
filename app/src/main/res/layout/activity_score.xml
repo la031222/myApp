@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ScoreActivity">
+
+    <TextView
+        android:id="@+id/bubian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="计分器"
+        android:textSize="45sp" />
+    <TextView
+        android:id="@+id/out0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="欢迎使用"
+        android:textSize="45sp" />
+
+    <Button
+        android:id="@+id/out1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="加1分"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/out2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="加2分"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/out3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="加3分"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+
+        android:padding="8dp"
+        android:text="重置分数"
+        android:gravity="center"
+        android:textSize="25sp" />
+</LinearLayout>
