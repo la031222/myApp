@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">myApp</string>
+    <string name="app_name">basketball</string>
+    <string name="Reset">Reset</string>
+    <string name="Team_a">A</string>
+    <string name="Team_b">B</string>
+    <string name="score_a">0</string>
+    <string name="score_b">0</string>
+    <string name="buttona1">Free Throw</string>
+    <string name="buttona2">+2 POINTS</string>
+    <string name="buttona3">+3 POINTS</string>
+    <string name="buttonb1">Free Throw</string>
+    <string name="buttonb2">+2 POINTS</string>
+    <string name="buttonb3">+3 POINTS</string>
+    <string name="buttonreset">reset</string>
 </resources>
