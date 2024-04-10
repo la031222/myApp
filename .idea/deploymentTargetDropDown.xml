@@ -2,13 +2,16 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="ScoreActivity">
+      <entry key="ConfigActivity">
         <State />
       </entry>
-      <entry key="ScoreActivity (1)">
+      <entry key="MoneyActivity">
         <State />
       </entry>
-      <entry key="ScoreActivity (2)">
+      <entry key="MoneyActivity (1)">
+        <State />
+      </entry>
+      <entry key="MoneyActivity (2)">
         <State />
       </entry>
       <entry key="ScoreActivity2">

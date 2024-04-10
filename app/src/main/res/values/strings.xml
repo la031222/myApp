@@ -1,15 +1,27 @@
 <resources>
-    <string name="app_name">basketball</string>
-    <string name="Reset">Reset</string>
+    <string name="app_name">add</string>
+    <string name="showText">TeamA</string>
+    <string name="btn1">+1 POINTS</string>
+    <string name="btn2">+2 POINTS</string>
+    <string name="btn3">+3 POINTS</string>
+    <string name="btn0">Reset</string>
+    <string name="point">0</string>
     <string name="Team_a">A</string>
     <string name="Team_b">B</string>
     <string name="score_a">0</string>
     <string name="score_b">0</string>
-    <string name="buttona1">Free Throw</string>
+    <string name="buttona1">+1 POINTS</string>
     <string name="buttona2">+2 POINTS</string>
     <string name="buttona3">+3 POINTS</string>
-    <string name="buttonb1">Free Throw</string>
+    <string name="buttonb1">+1 POINTS</string>
     <string name="buttonb2">+2 POINTS</string>
     <string name="buttonb3">+3 POINTS</string>
     <string name="buttonreset">reset</string>
+    <string name="rmb">Input RMB</string>
+    <string name="result">Hello! Welcome!</string>
+    <string name="btn_dollar">Dollar</string>
+    <string name="btn_euro">Euro</string>
+    <string name="btn_won">Won</string>
+    <string name="btn_config">config</string>
+    <string name="btn_save">SAVE</string>
 </resources>
