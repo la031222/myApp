@@ -34,13 +34,6 @@ public class MoneyActivity extends AppCompatActivity implements Runnable{
         //开启子线程
         Thread t = new Thread(this);
         t.start();
-        handler = new Handler(){
-            @Override
-            public void handleMessage(Message msg) {
-
-            }
-        super.handleMessage(msg);
-        }
     };
     }
     public void MoneyClick(View btn){
