@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 
+
 public class ConfigActivity extends AppCompatActivity {
     float dollar1,euro1,won1;
     private static final String TAG = "Rate";
@@ -47,7 +48,6 @@ public class ConfigActivity extends AppCompatActivity {
         euro1 = Float.parseFloat(euro_edit.getText().toString());
         won1 = Float.parseFloat(won_edit.getText().toString());
 
-        //传送参数
         Intent intent1 = new Intent(ConfigActivity.this,MoneyActivity.class);
         intent1.putExtra("dollar_rate",dollar1);
         intent1.putExtra("euro_rate",euro1);

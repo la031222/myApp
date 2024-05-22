@@ -24,4 +24,11 @@
     <string name="btn_won">Won</string>
     <string name="btn_config">config</string>
     <string name="btn_save">SAVE</string>
+    <string name="btn_label">Button</string>
+    <string name="btn_dollar_label">Dollar</string>
+    <string name="btn_euro_label">Euro</string>
+    <string name="btn_won_label">Won</string>
+    <string name="rmb_hint_label">Input RMB</string>
+    <string name="btn_opencfg_label">Config</string>
+    <string name="btn_save_label">save</string>
 </resources>

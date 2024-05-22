@@ -2,6 +2,8 @@ package com.example.myapp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -10,25 +12,37 @@ import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MoneyActivity extends AppCompatActivity {
+public class MoneyActivity extends AppCompatActivity implements Runnable{
     private static final String TAG = "Rate";
     public float dollarRate = 0.1383f;
     public float euroRate = 0.1271f;
     public float wonRate = 186.91f;
 
+    public void run() {
+        Log.i(TAG, "run: run()......");
+        Handler handler;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //EdgeToEdge.enable(this);
         setContentView(R.layout.activity_money);
-        //法1：intent方法
-        //接收参数
         Intent config1 = getIntent();
         dollarRate = config1.getFloatExtra("dollar_rate",0.1383f);
         euroRate = config1.getFloatExtra("euro_rate",0.1271f);
         wonRate = config1.getFloatExtra("won_rate",186.91f);
-    }
+        //开启子线程
+        Thread t = new Thread(this);
+        t.start();
+        handler = new Handler(){
+            @Override
+            public void handleMessage(Message msg) {
 
+            }
+        super.handleMessage(msg);
+        }
+    };
+    }
     public void MoneyClick(View btn){
         //获取按钮
         Button btn_dollar = findViewById(R.id.btn_dollar);
@@ -65,7 +79,7 @@ public class MoneyActivity extends AppCompatActivity {
     public void clickOpen(View v){
 
         //打开新窗口并传入参数
-        Intent config = new Intent(MoneyActivity.this, com.example.myapp.ConfigActivity.class);
+        Intent config = new Intent(MoneyActivity.this,ConfigActivity.class);
         //传递参数
         config.putExtra("dollar_rate_key",dollarRate);
         config.putExtra("euro_rate_key",euroRate);
