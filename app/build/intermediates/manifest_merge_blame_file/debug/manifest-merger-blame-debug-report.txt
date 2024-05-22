@@ -1,0 +1,171 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\16088aea6844a21f0ae8707202a192eb\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.myapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\16088aea6844a21f0ae8707202a192eb\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\16088aea6844a21f0ae8707202a192eb\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.myapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\16088aea6844a21f0ae8707202a192eb\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\16088aea6844a21f0ae8707202a192eb\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:5:5-70:19
+18        android:allowBackup="true"
+18-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\Lenovo\.gradle\caches\transforms-3\16088aea6844a21f0ae8707202a192eb\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.MyApp" >
+29-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:13:9-43
+30        <activity
+30-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:15:9-23:20
+31            android:name="com.example.myapp.MainActivity7"
+31-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:16:13-42
+32            android:exported="true" >
+32-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:17:13-36
+33            <intent-filter>
+33-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:18:9-22:25
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:19:13-65
+34-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:19:21-62
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:21:13-73
+36-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:21:23-70
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:24:9-32:20
+40            android:name="com.example.myapp.MoneyActivity"
+40-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:25:13-42
+41            android:exported="true" >
+41-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:26:13-36
+42            <intent-filter>
+42-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:18:9-22:25
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:19:13-65
+43-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:19:21-62
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:21:13-73
+45-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:21:23-70
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:33:9-41:20
+49            android:name="com.example.myapp.ScoreActivity2"
+49-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:34:13-43
+50            android:exported="true" >
+50-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:35:13-36
+51            <intent-filter>
+51-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:18:9-22:25
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:19:13-65
+52-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:19:21-62
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:21:13-73
+54-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:21:23-70
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:42:9-50:20
+58            android:name="com.example.myapp.ConfigActivity"
+58-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:43:13-43
+59            android:exported="true" >
+59-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:44:13-36
+60            <intent-filter>
+60-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:18:9-22:25
+61                <action android:name="android.intent.action.MAIN" />
+61-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:19:13-65
+61-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:19:21-62
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:21:13-73
+63-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:21:23-70
+64            </intent-filter>
+65        </activity>
+66        <activity
+66-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:51:9-59:20
+67            android:name="com.example.myapp.ScoreActivity"
+67-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:52:13-42
+68            android:exported="true" >
+68-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:53:13-36
+69            <intent-filter>
+69-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:18:9-22:25
+70                <action android:name="android.intent.action.MAIN" />
+70-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:19:13-65
+70-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:19:21-62
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:21:13-73
+72-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:21:23-70
+73            </intent-filter>
+74        </activity>
+75        <activity
+75-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:33:9-41:20
+76            android:name="com.example.myapp.ScoreActivity2"
+76-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:34:13-43
+77            android:exported="true" >
+77-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:35:13-36
+78            <intent-filter>
+78-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:18:9-22:25
+79                <action android:name="android.intent.action.MAIN" />
+79-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:19:13-65
+79-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:19:21-62
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:21:13-73
+81-->C:\Users\Lenovo\AndroidStudioProjects\myApp\app\src\main\AndroidManifest.xml:21:23-70
+82            </intent-filter>
+83        </activity>
+84
+85        <provider
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\ea260942d8acadff20549e4d8b1553b4\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+86            android:name="androidx.startup.InitializationProvider"
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\ea260942d8acadff20549e4d8b1553b4\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+87            android:authorities="com.example.myapp.androidx-startup"
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\ea260942d8acadff20549e4d8b1553b4\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+88            android:exported="false" >
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\ea260942d8acadff20549e4d8b1553b4\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+89            <meta-data
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\ea260942d8acadff20549e4d8b1553b4\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\ea260942d8acadff20549e4d8b1553b4\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+91                android:value="androidx.startup" />
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\ea260942d8acadff20549e4d8b1553b4\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+92            <meta-data
+92-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Lenovo\.gradle\caches\transforms-3\3000b6b92cffbf8c85b306e5e4cc0661\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+93                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+93-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Lenovo\.gradle\caches\transforms-3\3000b6b92cffbf8c85b306e5e4cc0661\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+94                android:value="androidx.startup" />
+94-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Lenovo\.gradle\caches\transforms-3\3000b6b92cffbf8c85b306e5e4cc0661\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+95        </provider>
+96    </application>
+97
+98</manifest>
